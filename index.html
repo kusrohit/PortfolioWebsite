@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Main -->
+    <main>
+      <!-- Header -->
+      <header>
+        <!-- Overlay of images -->
+        <div class="overlay overlay-lg">
+          <img src="./image/shapes/square.png" class="shape square" alt="" />
+          <img src="./image/shapes/circle.png" class="shape circle" alt="" />
+          <img
+            src="./image/shapes/half-circle.png"
+            class="shape half-circle1"
+            alt=""
+          />
+          <img
+            src="./image/shapes/half-circle.png"
+            class="shape half-circle2"
+            alt=""
+          />
+          <img src="./image/shapes/x.png" class="shape xshape" alt="" />
+          <img src="./image/shapes/wave.png" class="shape wave wave1" alt="" />
+          <img src="./image/shapes/wave.png" class="shape wave wave2" alt="" />
+          <img
+            src="./image/shapes/triangle.png"
+            class="shape triangle"
+            alt=""
+          />
+          <img src="./image/shapes/letters.png" class="letters" alt="" />
+          <img src="./image/shapes/points1.png" class="points point1" alt="" />
+        </div>
+
+        <!-- Navbar -->
+        <nav>
+          <!-- Nav-container -->
+          <div class="container">
+            <!-- Nav-Logo -->
+            <div class="logo">
+              <img src="./image/logo.png" alt="" />
+            </div>
+
+            <!-- Nav-Links -->
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">Services</a>
+                </li>
+                <li>
+                  <a href="#">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Testimonials</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+                <li>
+                  <a href="#" class="active">Hire ME</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Showcase Area -->
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <h1 class="header-title">John Dorsey</h1>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                maiores suscipit illum! Vero delectus labore itaque cumque non
+                culpa quam?
+              </p>
+              <a href="#" class="btn">Download CV</a>
+            </div>
+
+            <div class="column-2 image">
+              <img
+                src="./image/person.png"
+                class="img-element z-index"
+                alt=""
+              />
+              <img
+                src="./image/shapes/points2.png"
+                class="points point2"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Section -->
+      <section class="services section">
+        <!-- Services -->
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="What I Do">Services</h3>
+            <p class="text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum,
+              unde!
+            </p>
+          </div>
+
+          <div class="cards">
+            <div class="card-wrap">
+              <img src="./image/shapes/points3.png" class="points point1 point-sq" alt="">
+              <div class="card" data-card="UI/UX">
+                <div class="card-content">
+                  <img src="./image/design-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">Web Design</h3>
+                  <p class="text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Fugiat, repellendus.
+                  </p>
+                  <a href="#" class="btn small">Read More..</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-wrap">
+              <div class="card" data-card="Code">
+                <div class="card-content">
+                  <img src="./image/code-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">Web Development</h3>
+                  <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Rerum, facilis?
+                  </p>
+                  <a href="#" class="btn small">Read More..</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-wrap" >
+              <img src="./image/shapes/points3.png" class="points point2 point-sq" alt="">
+              <div class="card" data-card="App">
+                <div class="card-content">
+                  <img src="./image/app-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">App Development</h3>
+                  <p class="text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quas, eligendi!
+                  </p>
+                  <a href="#" class="btn small">Read More..</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
